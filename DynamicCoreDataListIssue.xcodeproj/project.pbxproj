@@ -8,21 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		736D733427EDDFCF007E2D15 /* DynamicCoreDataListIssueApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736D733327EDDFCF007E2D15 /* DynamicCoreDataListIssueApp.swift */; };
-		736D733627EDDFD0007E2D15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736D733527EDDFD0007E2D15 /* ContentView.swift */; };
+		736D733627EDDFD0007E2D15 /* FruitPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736D733527EDDFD0007E2D15 /* FruitPicker.swift */; };
 		736D733827EDDFD3007E2D15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 736D733727EDDFD3007E2D15 /* Assets.xcassets */; };
 		736D733B27EDDFD3007E2D15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 736D733A27EDDFD3007E2D15 /* Preview Assets.xcassets */; };
 		736D733D27EDDFD3007E2D15 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736D733C27EDDFD3007E2D15 /* Persistence.swift */; };
 		736D734027EDDFD3007E2D15 /* DynamicCoreDataListIssue.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 736D733E27EDDFD3007E2D15 /* DynamicCoreDataListIssue.xcdatamodeld */; };
+		736D734727EDE1B5007E2D15 /* Fruit+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736D734627EDE1B5007E2D15 /* Fruit+.swift */; };
+		7393554127EDEA40004B1F12 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7393554027EDEA40004B1F12 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		736D733027EDDFCF007E2D15 /* DynamicCoreDataListIssue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicCoreDataListIssue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		736D733327EDDFCF007E2D15 /* DynamicCoreDataListIssueApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicCoreDataListIssueApp.swift; sourceTree = "<group>"; };
-		736D733527EDDFD0007E2D15 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		736D733527EDDFD0007E2D15 /* FruitPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitPicker.swift; sourceTree = "<group>"; };
 		736D733727EDDFD3007E2D15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		736D733A27EDDFD3007E2D15 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		736D733C27EDDFD3007E2D15 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		736D733F27EDDFD3007E2D15 /* DynamicCoreDataListIssue.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DynamicCoreDataListIssue.xcdatamodel; sourceTree = "<group>"; };
+		736D734627EDE1B5007E2D15 /* Fruit+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fruit+.swift"; sourceTree = "<group>"; };
+		7393554027EDEA40004B1F12 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			isa = PBXGroup;
 			children = (
 				736D733327EDDFCF007E2D15 /* DynamicCoreDataListIssueApp.swift */,
-				736D733527EDDFD0007E2D15 /* ContentView.swift */,
+				7393554027EDEA40004B1F12 /* ContentView.swift */,
+				736D734627EDE1B5007E2D15 /* Fruit+.swift */,
+				736D733527EDDFD0007E2D15 /* FruitPicker.swift */,
 				736D733727EDDFD3007E2D15 /* Assets.xcassets */,
 				736D733C27EDDFD3007E2D15 /* Persistence.swift */,
 				736D733E27EDDFD3007E2D15 /* DynamicCoreDataListIssue.xcdatamodeld */,
@@ -143,8 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				736D734727EDE1B5007E2D15 /* Fruit+.swift in Sources */,
 				736D733D27EDDFD3007E2D15 /* Persistence.swift in Sources */,
-				736D733627EDDFD0007E2D15 /* ContentView.swift in Sources */,
+				7393554127EDEA40004B1F12 /* ContentView.swift in Sources */,
+				736D733627EDDFD0007E2D15 /* FruitPicker.swift in Sources */,
 				736D734027EDDFD3007E2D15 /* DynamicCoreDataListIssue.xcdatamodeld in Sources */,
 				736D733427EDDFCF007E2D15 /* DynamicCoreDataListIssueApp.swift in Sources */,
 			);
